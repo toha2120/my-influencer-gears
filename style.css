@@ -1,0 +1,90 @@
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+.navbar {
+  float: right;
+  padding: 0;
+}
+.logo{
+    float: left;
+}
+.navbar ul {
+  overflow: auto;
+  
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+
+}
+.navbar a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+/* design start */
+
+/* section work */
+main{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.start-section{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.text-part{
+    width: 40%;
+    margin-top: 100px;
+} 
+.text-part h1{
+    color: #3A3A3A;
+    font-size: 52px;
+    margin-bottom: -10px;
+}
+.text-part p{
+    color: #3A3A3A;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: rgb(234, 19, 145);
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+.image-part{
+}
+.camera{
+    position: relative;
+    top: 50px ;
+    left: 250px;
+}
+.circle{
+    position: absolute;
+    right: 100px;
+    bottom:1px ;
+}
+/* logo section */
+.logo{
+    background-color: lightblue;
+    margin-bottom: 50px;
+
+}
+.logo img{
+    padding: 10px;
+}
